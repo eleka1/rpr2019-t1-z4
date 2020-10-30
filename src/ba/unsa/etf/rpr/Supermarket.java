@@ -10,6 +10,7 @@ public class Supermarket {
             if(artikli_sm[i] == null){
                 artikli_sm[i] = novi;
                 broj_sm = broj_sm + 1;
+                break;
             }
         }
     }
@@ -30,5 +31,9 @@ public class Supermarket {
             }
         }
         return povratni;
+    }
+
+    public int getBroj_sm() {
+        return broj_sm;
     }
 }

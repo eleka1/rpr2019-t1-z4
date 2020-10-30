@@ -24,8 +24,10 @@ public class Korpa {
     public Artikl izbaciArtiklSaKodom(String kod) {
         Artikl a = null;
         for (int i=0; i<50; i++){
+            if(artikli_korpa[i] == null) continue; //zastita od null !obavezno
             if(kod.equals(artikli_korpa[i].getKod())) {
                 a = artikli_korpa[i];
+                artikli_korpa[i] = null;
                 broj_korpa = broj_korpa - 1;
                 break;
             }
@@ -39,5 +41,9 @@ public class Korpa {
             if(x != null) suma = suma + x.getCijena();
         }
         return suma;
+    }
+
+    public int getBroj_korpa() {
+        return broj_korpa;
     }
 }
