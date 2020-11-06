@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d57e114-b1d3-4f19-91fb-7fbce488e792" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr2019-t1-z4/ba/unsa/etf/rpr/Korpa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +45,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SupermarketTest">
+  <component name="RunManager" selected="JUnit.ArtiklTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -68,6 +63,21 @@
       <module name="rpr2019-t1-z4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArtiklTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.ArtiklTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,10 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SupermarketTest" />
+        <item itemvalue="JUnit.ArtiklTest" />
         <item itemvalue="JUnit.KorpaTest" />
-        <item itemvalue="JUnit.All in rpr2019-t1-z4" />
+        <item itemvalue="JUnit.SupermarketTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.All in rpr2019-t1-z4" />
       </list>
     </recent_temporary>
   </component>
@@ -127,12 +138,20 @@
       <option name="project" value="LOCAL" />
       <updated>1603979441172</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Dodani testovi za klase Korpa i Supermarket.">
+      <created>1604061396321</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604061396321</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Dodani testovi za klase Korpa i Supermarket." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodani testovi za klase Korpa i Supermarket." />
   </component>
   <component name="WindowStateProjectService">
     <state x="249" y="0" key="#Project_Structure" timestamp="1603914688699">
@@ -151,42 +170,48 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="137" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604059664880" />
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1603979439015">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1604061394600">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1603979439015" />
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1604061215589">
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1604061394600" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604662643040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604061215589" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1604061215588">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604662643040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604662643040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604061215588" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1604061215588">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604662643040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604662643040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604061215588" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1604061215589">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604662643040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604662643040">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604061215589" />
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1603979473352">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604662643040" />
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2" timestamp="1604061414740">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603979473352" />
+    <state x="361" y="169" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604061414740" />
     <state x="498" y="328" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604057412385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="328" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1604057412385" />
-    <state x="540" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604059344037">
+    <state x="540" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604663069500">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="540" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1604059344037" />
+    <state x="540" y="219" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1604663069500" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1604058822142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$SupermarketTest.ic" NAME="SupermarketTest Coverage Results" MODIFIED="1604060084101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$Main.ic" NAME="Main Coverage Results" MODIFIED="1604662560548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$SupermarketTest.ic" NAME="SupermarketTest Coverage Results" MODIFIED="1604662570961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$KorpaTest.ic" NAME="KorpaTest Coverage Results" MODIFIED="1604662642990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>
   </component>
